@@ -22,3 +22,9 @@ def analyze(marks):
 student_marks = [40, 80, 90, 100, 50]
 
 analyze(student_marks)
+
+
+# My practice: highest and lowest
+my_marks = [65, 48, 90, 77, 33]
+print("Highest:", max(my_marks))
+print("Lowest:", min(my_marks))
