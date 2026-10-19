@@ -31,3 +31,24 @@ student = {
 print(student.get("age"))
 print(student.keys())
 print(student.values())
+
+
+# My practice: list
+fruits = ["apple", "banana"]
+fruits.append("mango")
+print(fruits)
+print(len(fruits))
+
+# My practice: tuple (cannot be changed)
+point = (3, 4)
+print(point[0])
+
+# My practice: set (no duplicates)
+nums = {1, 2, 2, 3}
+print(nums)
+
+# My practice: dictionary
+me = {"name": "Aqsa", "age": 20}
+me["city"] = "Wah"
+print(me.get("name"))
+print(me)
